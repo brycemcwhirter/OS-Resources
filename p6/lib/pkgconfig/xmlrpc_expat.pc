@@ -1,0 +1,7 @@
+Name:        xmlrpc_expat
+Description: Xmlrpc-c XML parsing library
+Version:     1.54.6
+
+Requires: xmlrpc_util
+Libs:     -L/home/csi/m/mcwhirter/OperatingSystems/Programs/6/Program6/lib -lxmlrpc_xmlparse -lxmlrpc_xmltok
+Cflags:   -I/home/csi/m/mcwhirter/OperatingSystems/Programs/6/Program6/include

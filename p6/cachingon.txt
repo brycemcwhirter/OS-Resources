@@ -1,0 +1,505 @@
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.getCwd</methodName>\r\n
+<params>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir</string></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.getAttr</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/</string></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><struct>\r\n
+<member><name>errno</name>\r\n
+<value><i4>0</i4></value></member>\r\n
+<member><name>st_mode</name>\r\n
+<value><i4>16877</i4></value></member>\r\n
+<member><name>st_uid</name>\r\n
+<value><i4>2803</i4></value></member>\r\n
+<member><name>st_size</name>\r\n
+<value><i4>4096</i4></value></member>\r\n
+</struct></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.getAttr</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/hoofsrpc</string></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><struct>\r\n
+<member><name>errno</name>\r\n
+<value><i4>-2</i4></value></member>\r\n
+<member><name>st_mode</name>\r\n
+<value><i4>1140855728</i4></value></member>\r\n
+<member><name>st_uid</name>\r\n
+<value><i4>32584</i4></value></member>\r\n
+<member><name>st_size</name>\r\n
+<value><i4>1140860448</i4></value></member>\r\n
+</struct></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.getAttr</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/hoofsrpc</string></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><struct>\r\n
+<member><name>errno</name>\r\n
+<value><i4>-2</i4></value></member>\r\n
+<member><name>st_mode</name>\r\n
+<value><i4>1140865312</i4></value></member>\r\n
+<member><name>st_uid</name>\r\n
+<value><i4>32584</i4></value></member>\r\n
+<member><name>st_size</name>\r\n
+<value><i4>1140860272</i4></value></member>\r\n
+</struct></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.getAttr</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><struct>\r\n
+<member><name>errno</name>\r\n
+<value><i4>-2</i4></value></member>\r\n
+<member><name>st_mode</name>\r\n
+<value><i4>1140855520</i4></value></member>\r\n
+<member><name>st_uid</name>\r\n
+<value><i4>32584</i4></value></member>\r\n
+<member><name>st_size</name>\r\n
+<value><i4>1140860608</i4></value></member>\r\n
+</struct></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.create</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+<param><value><i4>34881</i4></value></param>\r\n
+<param><value><i4>33188</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.getAttr</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><struct>\r\n
+<member><name>errno</name>\r\n
+<value><i4>0</i4></value></member>\r\n
+<member><name>st_mode</name>\r\n
+<value><i4>33188</i4></value></member>\r\n
+<member><name>st_uid</name>\r\n
+<value><i4>2803</i4></value></member>\r\n
+<member><name>st_size</name>\r\n
+<value><i4>0</i4></value></member>\r\n
+</struct></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.release</methodName>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.open</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+<param><value><i4>32769</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.write</methodName>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+<param><value><string>this\n
+</string></value></param>\r\n
+<param><value><i4>5</i4></value></param>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>5</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.release</methodName>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.open</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+<param><value><i4>32769</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.write</methodName>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+<param><value><string>is\n
+</string></value></param>\r\n
+<param><value><i4>3</i4></value></param>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>3</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.release</methodName>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.open</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+<param><value><i4>32769</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.write</methodName>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+<param><value><string>my\n
+</string></value></param>\r\n
+<param><value><i4>3</i4></value></param>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>3</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.release</methodName>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.open</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+<param><value><i4>32769</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.write</methodName>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+<param><value><string>test\n
+</string></value></param>\r\n
+<param><value><i4>5</i4></value></param>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>5</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.release</methodName>\r\n
+<params>\r\n
+<param><value><i4>9</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.chmod</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+<param><value><i4>33279</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.chmod</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+<param><value><i4>33190</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
+
+XML-RPC CALL:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodCall>\r\n
+<methodName>rpc.chmod</methodName>\r\n
+<params>\r\n
+<param><value><string>/home/csi/m/mcwhirter/OperatingSystems/Programs/Prog678/p6/rmtdir/d</string></value></param>\r\n
+<param><value><i4>33279</i4></value></param>\r\n
+</params>\r\n
+</methodCall>\r\n
+
+XML-RPC RESPONSE:
+
+<?xml version="1.0" encoding="UTF-8"?>\r\n
+<methodResponse>\r\n
+<params>\r\n
+<param><value><i4>0</i4></value></param>\r\n
+</params>\r\n
+</methodResponse>\r\n
